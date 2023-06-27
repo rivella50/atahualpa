@@ -1,4 +1,4 @@
-Wordpress Theme "Atahualpa" 
+# Wordpress Theme Atahualpa
 
 This is the unofficial hosting of the Atahualpa Wordpress theme.
 Since the original creators do not have time anymore to maintain the theme a small group of developers have decided to continue maintaining it and try to ensure compatibility with upcoming versions of PHP and Wordpress.
@@ -6,14 +6,10 @@ Since the original creators do not have time anymore to maintain the theme a sma
 If you have problems please file an issue.
 If you can solve a problem please create a documented and tested pull request.
 
-#####################################################################
+## Upgrade
 
-UPGRADE:
+### To manually upgrade the theme
 
-#####################################################################
-
-To manually upgrade the theme
--------------------------
 1) download the new version of the theme
 2) unzip the file
 3) copy any images you have added in a prior release to the 'images/header' folder. If using a different folder this step is not needed. 
@@ -26,12 +22,7 @@ See the forums for directions.
 
 You can now check out the new version. If something is wrong, you can simply go back to Dashboard->Appearances->Themes and re-activate the prior version.
 
-
-#####################################################################
-
-(First Time) INSTALLATION:
-
-#####################################################################
+## First Time Installation
 
 1. Extract the file "atahualpaXXX.zip", "atahualpa.zip" or similar 
 on your desktop computer, i.e. with WinZip or 7-zip
@@ -42,16 +33,12 @@ files and subdirectories.
 From now on we'll call this directory "atahualpa" although it might be 
 "atahualpa3712" or whatever for you. 
 
-#####################################################################
-
 2. Upload the complete folder "atahualpa" with all its contents to
 your web hosting account to the directory
 /your wordpress-install/wp-content/themes/
 so the final destination of the "atahualpa" folder becomes:
 /your wordpress-install/wp-content/themes/atahualpa/
 You will need a "FTP Client" Software for this
-
-#####################################################################
 
 3. Activate Atahualpa by clicking on its name or screenshot at:
 
@@ -62,21 +49,15 @@ http://www.your-domain.com/wp-admin/
 If you've installed WordPress in a subfolder such as "blog", it would
 be http://www.your-domain.com/blog/wp-admin/
 
-#####################################################################
-
 4. Reload your blog homepage and see if the theme is active. If not, 
 repeat the steps above or post at http://forum.bytesforall.com/
 
 If it looks broken, it may be a matter of setting the theme options.
 If the sidebars look empty, you may need to add widgets. 
 
-#####################################################################
-
 5. Configure the theme at
 
 Your Blog -> Site Admin -> Appearance -> Atahualpa Theme Options
-
-#####################################################################
 
 6. The theme will automatically add 4 additional widgets to the list of available widgets:
 
@@ -98,8 +79,6 @@ of the sidebars. All widgets, the 4 BFA widgets and the default
 WordPress widgets, can be found at:
 
 Your Blog -> Site Admin -> Appearance -> Widgets
- 
-#####################################################################
 
 7. OPTIONAL: Install additional plugins to enhance your blog
 
@@ -186,10 +165,8 @@ and other SEO plugins
 url(http://www.yoursite.com/wp-content/themes/atahualpa/images/myimage.gif).
 A relative path such as url(images/myimage.gif) will NOT work in the theme options. 
 
-#####################################################################
 
-
-LICENSE:
+## License
 
     "Atahualpa" is a WordPress theme
     Copyright (C) 2008-2012 Lmm Muenchen, BFA Webdesign (www.BytesForAll.com)
