@@ -1,0 +1,53 @@
+/*
+Theme Name: Atahualpa
+Theme URI: http://wordpress.bytesforall.com/
+Description: Atahualpa is a very customizable and browser-safe  theme: Choose between fixed or flexible width layout, with min/max width, set between 0 and 4 sidebars on a per-page basis, create custom widget areas, import and export styles (several styles included), choose colors with pickers, adjust over 200 options. Atahualpa is one of the most downloaded WordPress themes and maintained since 2007. Active community at forum.bytesforall.com.
+Version: 3.7.26
+Author: BytesForAll
+Author URI: http://forum.bytesforall.com/
+Tags:  left-sidebar, right-sidebar, fluid-layout, fixed-layout, one-column, two-columns, three-columns, four-columns, white, custom-colors, custom-header, theme-options, threaded-comments, sticky-post, translation-ready
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+ 
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.alignleft {
+	float: left;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.wp-caption {
+	background: #f1f1f1;
+	line-height: 18px;
+	margin-bottom: 20px;
+	padding: 4px;
+	text-align: center;
+}
+	
+.wp-caption-text {
+	color: #888;
+	font-size: 12px;
+	margin: 5px;
+	}
+	
+.gallery-caption {
+	color: #888;
+	font-size: 12px;
+	margin: 0 0 12px;
+	}
+
+.sticky {
+	font-weight: normal;
+}
+
+.bypostauthor {
+	font-weight: normal;
+}
