@@ -6,7 +6,7 @@ global $bfa_ata, $post;
    $GLOBALS['comment'] = $comment; ?>
 		<li <?php comment_class($class='clearfix') ?> id="comment-<?php comment_ID(); ?>">
 		<div id="div-comment-<?php comment_ID(); ?>" class="clearfix comment-container<?php 
-		$comment = get_comment($comment_id);
+		$comment = get_comment($comment_id ?? 0);
 		if ( $comment->user_id === $post->post_author )
 			echo ' bypostauthor';
 		?>">

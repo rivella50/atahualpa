@@ -855,13 +855,6 @@ function bfa_enqueue_scripts() {
 		
 		wp_enqueue_script('jquery');
 
-		if ($bfa_ata['pngfix_selectors'] != "" AND $isIE6 = TRUE) 
-		{
-			wp_register_script('ddroundies', $templateURI . '/js/DD_roundies.js', false, '0.0.2a' );
-			wp_enqueue_script('ddroundies');
-			add_action('wp_head', 'bfa_ddroundiesHead');
-		}
-		
 		if (strpos($bfa_ata['configure_header'],'%image')!== FALSE AND $bfa_ata['header_image_javascript'] != "0" 
 		AND $bfa_ata['crossslide_fade'] != "0") {
 			wp_register_script('crossslide', $templateURI . '/js/jquery.cross-slide.js', array('jquery'), '0.3.2' );

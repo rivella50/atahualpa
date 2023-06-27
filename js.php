@@ -104,10 +104,6 @@ $bfa_ata['header_image_javascript'] != "0" AND $bfa_ata['crossslide_fade'] != "0
 	/* jQuery('ul#rmenu').superfish(); */
 	/* jQuery('ul#rmenu').superfish().find('ul').bgIframe({opacity:false}); */
  
-	}
-	
-	
-	
 	/* Since 3.7.8: Auto resize videos (embed and iframe elements) 
 	TODO: Parse parent's dimensions only once per layout column, not per video
 	*/

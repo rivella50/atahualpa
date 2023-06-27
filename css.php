@@ -134,8 +134,8 @@ pre, .wp_syntax {
 <?php if  ( $bfa_ata['layout_style_leftright_padding'] == "" ) { 
 	$bfa_ata['layout_style_leftright_padding'] = "0"; }
 	if ( $bfa_ata['layout_style_leftright_padding'] != "0" ) { 
-	$bfa_ata['layout_min'] = $bfa_ata['layout_min_width'] + ( $bfa_ata['layout_style_leftright_padding'] * 2 );
-	$bfa_ata['layout_max'] = $bfa_ata['layout_max_width'] + ( $bfa_ata['layout_style_leftright_padding'] * 2 );	
+	$bfa_ata['layout_min'] = (int) $bfa_ata['layout_min_width'] + ( $bfa_ata['layout_style_leftright_padding'] * 2 );
+	$bfa_ata['layout_max'] = (int) $bfa_ata['layout_max_width'] + ( $bfa_ata['layout_style_leftright_padding'] * 2 );	
 	} else {
 	$bfa_ata['layout_min'] = $bfa_ata['layout_min_width'];
 	$bfa_ata['layout_max'] = $bfa_ata['layout_max_width'];

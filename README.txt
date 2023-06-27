@@ -1,6 +1,10 @@
 Wordpress Theme "Atahualpa" 
 
-VISIT THE SUPPORT FORUMS AT http://forum.bytesforall.com/
+This is the unofficial hosting of the Atahualpa Wordpress theme.
+Since the original creators do not have time anymore to maintain the theme a small group of developers have decided to continue maintaining it and try to ensure compatibility with upcoming versions of PHP and Wordpress.
+
+If you have problems please file an issue.
+If you can solve a problem please create a documented and tested pull request.
 
 #####################################################################
 
