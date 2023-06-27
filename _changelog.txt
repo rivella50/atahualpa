@@ -1,3 +1,6 @@
+Changelog 3.7.27:
+- fixed various errors (see http://forum.bytesforall.com/showthread.php?t=24093)
+
 Changelog 3.7.26:
 - removed code for IE6
 
