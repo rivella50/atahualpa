@@ -133,7 +133,7 @@ function bfa_escape($string) {
 
 function bfa_footer_output($footer_content) {
 	global $bfa_ata;
-	$footer_content .= '<br />Powered by <a href="http://wordpress.org/">WordPress</a> &amp; <a href="http://forum.bytesforall.com/">Atahualpa</a>';
+	$footer_content .= '';
 	return $footer_content;
 }
 
@@ -940,4 +940,18 @@ function bfa_is_pagetemplate_active($pagetemplate = '') {
 		return $classes;
 	}
 	add_filter('body_class', 'bfa_category_id_class');
+	
+	
+
+/**
+ * Registers an editor stylesheet for the current theme.
+ */
+function wpdocs_theme_add_editor_styles() {
+    $font_url = str_replace( ',', '%2C', '//fonts.googleapis.com/css?family=Lato:300,400,700' );
+    add_editor_style( $font_url );
+}
+add_action( 'after_setup_theme', 'wpdocs_theme_add_editor_styles' );
+
+
+
 ?>

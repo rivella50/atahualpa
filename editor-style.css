@@ -287,3 +287,10 @@ img.aligncenter {
 .wp-smiley {
 	margin:0;
 }
+
+/* Style the tinymce editor */
+body#tinymce.wp-editor { 
+	margin: 0 auto;
+	max-width: 100%;
+	width: 2600px;
+}
