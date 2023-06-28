@@ -50,7 +50,7 @@ If you've installed WordPress in a subfolder such as "blog", it would
 be http://www.your-domain.com/blog/wp-admin/
 
 4. Reload your blog homepage and see if the theme is active. If not, 
-repeat the steps above or post at http://forum.bytesforall.com/
+repeat the steps above or post at https://github.com/rivella50/atahualpa/issues
 
 If it looks broken, it may be a matter of setting the theme options.
 If the sidebars look empty, you may need to add widgets. 
