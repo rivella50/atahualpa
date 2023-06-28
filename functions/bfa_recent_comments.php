@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: BFA Recent Comments Widget
-Plugin URI: http://wordpress.bytesforall.com/
+Plugin URI: https://github.com/rivella50/atahualpa
 Description: Highly configurable WordPress widget that shows a list of recent comments.
 Version: 1.0
 Author: BFA Webdesign
@@ -9,7 +9,7 @@ Author URI: http://www.bytesforall.com/
 */
 
 /*
-Based on v0.2.4 of Recent Comments Widget by Mika Perälä
+Based on v0.2.4 of Recent Comments Widget by Mika Perï¿½lï¿½
 http://mika.kfib.org/
 
 Based on v0.1.1 of the Simple Recent Comments-plugin by Raoul

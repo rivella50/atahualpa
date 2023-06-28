@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: BFA Popular Posts
-Plugin URI: http://wordpress.bytesforall.com/
+Plugin URI: https://github.com/rivella50/atahualpa
 Description: Configurable WordPress widget that displays the most popular posts based on the number of comments 
 Version: 1.0
 Author: BFA Webdesign
