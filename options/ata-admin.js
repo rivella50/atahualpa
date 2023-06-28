@@ -39,7 +39,7 @@ jQuery(document).ready(function($){
 		return false;
 	});
 
-	$("a#reset_widget_areas").bind("click", function() { 
+	$("a#reset_widget_areas").on("click", function() { 
 		var delWidgetAreas = "";
 		$("input[type='checkbox'][name='delete_widget_areas']").each(function(){
 			if(this.checked){
@@ -55,7 +55,7 @@ jQuery(document).ready(function($){
 		return false;
 	});
 
-	$("a#delete_bfa_ata4").bind("click", function() { 
+	$("a#delete_bfa_ata4").on("click", function() { 
 		$.ajax({
 			data: 'action=bfa_delete_bfa_ata4&_ajax_nonce=' + $nonce2,
 			success: function(html){ 
