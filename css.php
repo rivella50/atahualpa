@@ -627,7 +627,6 @@ div.widget ul {
 /*------------- base styling for all widgets -----------*/
 	
 div.widget ul li {
-	display: block;
 	margin: 2px 0 2px <?php echo $bfa_ata['widget_lists']['li-margin-left']; ?>px;
 	padding: 0 0 0 <?php echo $bfa_ata['widget_lists']['link-padding-left']; ?>px; 
 	border-left: solid <?php echo $bfa_ata['widget_lists']['link-border-left-width']; ?>px #<?php echo $bfa_ata['widget_lists']['link-border-left-color']; ?>;
@@ -635,7 +634,6 @@ div.widget ul li {
 
 div.widget ul li:hover,
 div.widget ul li.sfhover {
-display: block;
 width: auto;
 	border-left: solid <?php echo $bfa_ata['widget_lists']['link-border-left-width']; ?>px #<?php echo $bfa_ata['widget_lists']['link-border-left-hover-color']; ?>; 
 	}
