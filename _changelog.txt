@@ -1,3 +1,7 @@
+Changelog 3.7.28
+- removed display:block from div.widget ul li - This will overwrite other display value in CSS inserts. Should this break your style add: div.widget ul li { display: block; } & div.widget ul li:hover { margin: 6px 0 12px 0px; } to your CSS inserts in settings (but should not be needed as nearly all widgets like text or similar that really need this, have display:block referennced anyhow again.
+- add missing aria-label and alt text to the search widget. Should you use the search widget this will improve google pagespeed score on accessibilty by 10-20 points (mobile/desktop)
+
 Changelog 3.7.27:
 - fixed various errors (see http://forum.bytesforall.com/showthread.php?t=24093)
 
