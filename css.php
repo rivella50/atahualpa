@@ -255,7 +255,6 @@ h1.blogtitle,
 h2.blogtitle {
     display: block;
 	<?php bfa_incl('blog_title_style') ?>
-	font-smooth: always;
 	}
 	
 h1.blogtitle a:link, 
@@ -267,7 +266,6 @@ h2.blogtitle a:active {
     text-decoration: none;
 	color: #<?php echo $bfa_ata['blog_title_color']; ?>;
 	font-weight: <?php echo $bfa_ata['blog_title_weight']; ?>;
-	font-smooth: always;
 	}
 	
 h1.blogtitle a:hover,
