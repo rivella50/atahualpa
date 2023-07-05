@@ -1821,7 +1821,7 @@ div.archives-page img {
 							the right sidebar while being resized. Change this 
 							to 100% if you want, if your images
 							don't have padding and a border */
-	width: auto 100%;
+	width: 100%;
 	height: auto;  /* FF3 needs "auto", IE6 needs "100%", see next style*/
 	display: block;
 	<?php bfa_incl('post_image_caption_style') ?>
