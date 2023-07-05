@@ -71,7 +71,7 @@ if ($bfa_ata['favicon_file'] != "") {
 <?php } ?>
 <div id="wrapper">
 <div id="container">
-<table id="layout" border="0" cellspacing="0" cellpadding="0">
+<table id="layout">
 <colgroup>
 <?php if ( $left_col == "on" ) { ?><col class="colone" /><?php } ?>
 <?php if ( $left_col2 == "on" ) { ?><col class="colone-inner" /><?php } ?>
